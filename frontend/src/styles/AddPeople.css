@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    flex: 1;
+}
+
+.content {
+    width: 100%;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form input, form select, form button {
+    margin: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+ul li button {
+    margin-left: 10px;
+}
+
+ul li img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.updateBtn{
+    margin  : 5px;
+}
+.status-active {
+    color: green !important;
+    font-weight: bold;
+}
+
+.status-inactive {
+    color: red !important;
+    font-weight: bold;
+}
