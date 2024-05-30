@@ -64,7 +64,7 @@ const forgotPassword = async (req, res) => {
             port: process.env.SMTP_PORT || 465,
             auth: {
                 user: process.env.SMTP_USER || "meghrajgadhave3@gmail.com",
-                pass: process.env.SMTP_PASS || "ccsq nmam bmtp ajqf",
+                pass: process.env.SMTP_PASS ,
             },
         });
 
